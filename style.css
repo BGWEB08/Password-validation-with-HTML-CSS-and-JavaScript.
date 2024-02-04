@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #201e20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 20px;
+  color: #201e20;
+  font-weight: 700;
+}
+
+#set {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+#count {
+  position: relative;
+  margin: 20px 0px;
+  color: #000;
+  font-size: 1rem;
+  text-indent: 40px;
+  font-weight: 700;
+}
+
+#see {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  color: #61677a;
+  margin-right: 40px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+input[id="password"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 85%;
+  border-bottom: 2px solid #000;
+  display: block;
+  position: relative;
+  font-size: 27px;
+  text-align: center;
+  top: 50px;
+  margin-top: -20px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  user-select: auto;
+  transition-duration: 600ms;
+}
+
+i {
+  font-size: 20px;
+  transition-duration: 600ms;
+  margin-left: 25px;
+}
+
+#check-short,
+#check-long,
+#check-number,
+#check-special {
+  display: block;
+  position: relative;
+  margin: 10px;
+  color: #d71313;
+  font-size: 1rem;
+  width: 90%;
+}
+
+span {
+  margin: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    max-width: none;
+  }
+
+  #see {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+  #check-short,
+  #check-long,
+  #check-number,
+  #check-special {
+    font-size: 1rem;
+    width: 90%;
+  }
+  input[id="password"] {
+    margin-left: 25px;
+  }
+  i {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    max-width: none;
+  }
+
+  #see {
+    top: 0;
+  }
+  #check-short,
+  #check-long,
+  #check-number,
+  #check-special {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  input[id="password"] {
+    margin-left: 20px;
+  }
+  i {
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+    max-width: none;
+  }
+
+  #see {
+    top: 0;
+  }
+  #check-short,
+  #check-long,
+  #check-number,
+  #check-special {
+    font-size: 0.7rem;
+    width: 90%;
+  }
+
+  input[id="password"] {
+    margin-left: 20px;
+  }
+  i {
+    font-size: 15px;
+  }
+}

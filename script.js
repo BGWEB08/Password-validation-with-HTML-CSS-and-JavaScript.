@@ -2,16 +2,16 @@ let isVisible = false;
 
 function see() {
   const input = document.getElementById("password");
-  const seeButton = document.getElementById("see");
+  const seeIcon = document.getElementById("see");
 
   if (isVisible) {
     input.type = "password";
     isVisible = false;
-    seeButton.style.color = "gray";
+    seeIcon.classList.replace("fa-eye","fa-eye-slash");
   } else {
     input.type = "text";
     isVisible = true;
-    seeButton.style.color = "#262626";
+    seeIcon.classList.replace("fa-eye-slash","fa-eye");
   }
 }
 
@@ -30,15 +30,15 @@ function check() {
 
   if (input.length <= 10) {
     checkShortElement.style.color = "green";
-} else {
+  } else {
     checkShortElement.style.color = "red";
-}
+  }
 
-if (input.length >= 5) {
+  if (input.length >= 5) {
     checkLongElement.style.color = "green";
-} else {
+  } else {
     checkLongElement.style.color = "red";
-}
+  }
 
   if (input.match(/[0-9]/)) {
     checkNumberElement.style.color = "green";

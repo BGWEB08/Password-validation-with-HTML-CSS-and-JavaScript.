@@ -1,12 +1,6 @@
 # Password Validation
 
-Password Validation is a simple web tool that validates passwords based on the following criteria:
-- Length more than 5
-- Length less than 10
-- Contains numerical character
-- Contains special character
-
-When a password meets all of these criteria, it changes color from red to green, indicating that it's valid.
+Password Validation is a simple web tool that validates passwords based on the following criteria. When a password meets all of the criteria, its color changes from red to green, indicating that it is valid.
 
 ## Features
 

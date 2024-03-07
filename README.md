@@ -12,4 +12,4 @@ Password Validation is a simple web tool that validates passwords based on the f
 
 Enter a password in the input field. As you type, the input field changes color to indicate password validity according to the criteria mentioned above.## Demo
 
-![Password Validation Demo](https://github.com/BGWEB08/README.md-IMAGES/blob/main/JavaScript%20Trials/Password%20Validation/passwordvalidation-img.png?raw=true)
+![Password Validation Image](https://github.com/BGWEB08/README.md-IMAGES/blob/main/JavaScript%20Trials/Password%20Validation/passwordvalidation-img.png?raw=true)
